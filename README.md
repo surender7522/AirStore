@@ -20,3 +20,4 @@ Now navigate to http://localhost:8000/docs to use the store
 > 
 > _**ऐसे ख़्वाबों से बाहर निकलना ज़रूरी है क्या ?**_
 > 
+[![Feb 23 Demo](thumb.png)](https://drive.google.com/file/d/1VPv3eA8myvmXKzWEEP6skL7vGU63rWvS/view?usp=sharing)

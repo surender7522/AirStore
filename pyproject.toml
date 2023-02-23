@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "objstorage"
+version = "0.1.0"
+description = "Object storage pet project"
+authors = ["Surender Singh Lamba <sslamba10@gmail.com>"]
+license = "GNU GPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+orjson = "^3.8.6"
+msgpack = "^1.0.4"
+reedsolo = "^1.7.0"
+fastapi = "^0.92.0"
+hypercorn = "^0.14.3"
+python-multipart = "^0.0.5"
+pyjerasure = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

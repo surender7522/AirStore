@@ -14,7 +14,7 @@ chmod +x run.sh
 
 Now navigate to http://localhost:8000/docs to use the store
 
-### For detailed documentation, please look at [DOCS.md](DOCS.md)
+### For detailed documentation, please look at [DOCS.MD](DOCS.MD)
 ##Made by Surender Singh Lamba on a ✈️ with Air India
 > _**गिरता है गुलमोहर, ख़्वाबों में रात भर**_
 > 

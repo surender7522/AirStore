@@ -1,7 +1,7 @@
-#Documentation
+# Documentation
 
 ## Problems focused on:
-###Erasure Coding
+### Erasure Coding
 Used _pyjerasure_ library based on ```libjerasure2``` to enable data parity for split data chunks. Particularly this solution uses 'cauchy' variant of the algorithm for encode and decode.
 
 The algorithm & splitting strategy is configured with the following variables:
@@ -17,16 +17,16 @@ The algorithm & splitting strategy is configured with the following variables:
   * Internal variable specifying ```test_env``` location
 * MATRIXTYPE
   * Algorithm used for data parity encode, decoding and recovery, currently uses cauchy.
-###Replicated metadata layer
+### Replicated metadata layer
 Metadata is stored in a odd number replicated fashion, it contains info on chunk placement across nodes, versions, sizes and content types
-###Minimal Deployed/Managed entities
+### Minimal Deployed/Managed entities
 Using disk replicated metadata info and clever hashing strategy, a lot of lookups and database layer is eliminated
 
 There is only one element, the backend which can be deployed as a stateless container supported by hypercorn for multiple workers
-###Fast RW for metadata and listing
+### Fast RW for metadata and listing
 For faster access to disk stored metadata, we use ```messagepack``` binary data format, it provides small filesize and faster orm than someother methods like protobuf, json, ion etc.
 
-###Basic support for S3 api
+### Basic support for S3 api
 Current implementation is a Proof-of-Concept of the architecture to support a object store and implements basic GET PUT functionality for objects, LIST for buckets as the author feels these features adds appropriate complexity for the PoC to prove its weight.
 
 The current solution is not s3 compliant.

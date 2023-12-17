@@ -16,8 +16,5 @@ Now navigate to http://localhost:8000/docs to use the store
 
 ### For detailed documentation, please look at [DOCS.MD](DOCS.MD)
 ## Made by Surender Singh Lamba on a ✈️ with Air India
-> _**गिरता है गुलमोहर, ख़्वाबों में रात भर**_
-> 
-> _**ऐसे ख़्वाबों से बाहर निकलना ज़रूरी है क्या ?**_
-> 
+
 [![Feb 23 Demo](thumb.png)](https://drive.google.com/file/d/1VPv3eA8myvmXKzWEEP6skL7vGU63rWvS/view?usp=sharing)
